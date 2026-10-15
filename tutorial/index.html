@@ -26,14 +26,21 @@ video{width:100%;border-radius:16px;border:1px solid var(--line);background:#000
 .seg button.on{background:rgba(124,108,255,.2);color:var(--fg)}
 .stage.vert{max-width:420px;margin:0 auto}
 .links{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
+.chap button:focus-visible,.seg button:focus-visible,.links a:focus-visible{outline:2px solid #cfc8ff;outline-offset:2px}
+.chap button:focus-visible{outline-offset:-2px}
 .links a{color:#cfc8ff;text-decoration:none;border:1px solid rgba(124,108,255,.45);background:rgba(124,108,255,.1);padding:9px 14px;border-radius:10px;font-weight:600;font-size:14px}
 </style></head>
 <body><div class="wrap">
 <header><div class="mark">A</div><div><h1>Adyru OS: the complete guide</h1><p class="sub">How to run your company with an AI team: every page, step by step.</p></div></header>
 <div class="grid">
   <div>
-    <div class="seg" role="tablist" aria-label="Version"><button id="bh" class="on" role="tab">Computer &amp; YouTube (16:9)</button><button id="bv" role="tab">Phone (9:16)</button></div>
-    <div class="stage" id="stage"><video id="v" controls playsinline preload="metadata" poster="poster.jpg" src="adyru-os-tutorial-16x9.mp4"></video></div>
+    <div class="seg" role="tablist" aria-label="Version"><button id="bh" class="on" role="tab" aria-selected="true" aria-controls="stage" tabindex="0" type="button">Computer &amp; YouTube (16:9)</button><button id="bv" role="tab" aria-selected="false" aria-controls="stage" tabindex="-1" type="button">Phone (9:16)</button></div>
+    <div class="stage" id="stage" role="tabpanel" aria-labelledby="bh"><video id="v" controls playsinline preload="metadata" poster="poster.jpg" src="adyru-os-tutorial-16x9.mp4">
+      <!-- The captions are already burned into the video, so this track is NOT the default and is switched off in the script below:
+           turning it on as well would show every line twice. It is here so the captions are linked to the player (screen readers,
+           the player's CC menu, search) and can be used where the burned-in captions are cropped. -->
+      <track kind="captions" src="adyru-os-tutorial.en.vtt" srclang="en" label="English">
+    </video></div>
     <div class="links"><a href="/">Open the demo</a><a href="adyru-os-tutorial-16x9.mp4" download>Download 16:9</a><a href="adyru-os-tutorial-9x16.mp4" download>Download 9:16</a><a href="adyru-os-tutorial.en.srt" download>Subtitles (.srt)</a></div>
   </div>
   <nav class="chap" aria-label="Chapters"><h2>Chapters</h2><div id="list"></div></nav>
@@ -42,11 +49,26 @@ video{width:100%;border-radius:16px;border:1px solid var(--line);background:#000
 <script>
 const CH = [["00:00", "Welcome"], ["00:40", "Signing in"], ["00:58", "Finding your way around"], ["01:59", "Mission Control"], ["03:04", "Search and commands"], ["03:29", "Inbox and approvals"], ["04:52", "Tasks and goals"], ["05:36", "Your AI team"], ["07:02", "Brain and knowledge"], ["07:48", "Sales and customers"], ["08:35", "Marketing"], ["09:24", "Insights"], ["09:49", "Finance"], ["10:46", "Operations"], ["11:36", "People, risk and security"], ["12:09", "Settings"], ["12:37", "On your phone"], ["12:54", "Wrap-up"]];
 const v = document.getElementById('v'), list = document.getElementById('list'), stage = document.getElementById('stage');
-const pick = (vert) => { const t = v.currentTime, playing = !v.paused; v.src = vert ? 'adyru-os-tutorial-9x16.mp4' : 'adyru-os-tutorial-16x9.mp4'; v.poster = vert ? 'poster-9x16.jpg' : 'poster.jpg'; stage.classList.toggle('vert', vert); document.getElementById('bv').classList.toggle('on', vert); document.getElementById('bh').classList.toggle('on', !vert); v.addEventListener('loadedmetadata', () => { v.currentTime = t; if (playing) v.play(); }, { once: true }); };
-document.getElementById('bh').onclick = () => pick(false); document.getElementById('bv').onclick = () => pick(true);
+const bh = document.getElementById('bh'), bv = document.getElementById('bv');
+const pick = (vert) => { const t = v.currentTime, playing = !v.paused; v.src = vert ? 'adyru-os-tutorial-9x16.mp4' : 'adyru-os-tutorial-16x9.mp4'; v.poster = vert ? 'poster-9x16.jpg' : 'poster.jpg'; stage.classList.toggle('vert', vert);
+  for (const [b, on] of [[bv, vert], [bh, !vert]]) { b.classList.toggle('on', on); b.setAttribute('aria-selected', on ? 'true' : 'false'); b.tabIndex = on ? 0 : -1; }
+  stage.setAttribute('aria-labelledby', vert ? 'bv' : 'bh');
+  v.addEventListener('loadedmetadata', () => { v.currentTime = t; if (playing) v.play(); }, { once: true }); };
+bh.onclick = () => pick(false); bv.onclick = () => pick(true);
+// Arrow keys, Home and End move between the two tabs and select the one they land on (WAI-ARIA tabs pattern).
+for (const b of [bh, bv]) b.addEventListener('keydown', (e) => {
+  const tabs = [bh, bv]; let i = tabs.indexOf(b);
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') i = (i + 1) % tabs.length;
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') i = (i - 1 + tabs.length) % tabs.length;
+  else if (e.key === 'Home') i = 0; else if (e.key === 'End') i = tabs.length - 1; else return;
+  e.preventDefault(); tabs[i].focus(); tabs[i].click();
+});
+// The captions are burned into the picture: keep the text track off unless the person turns it on in the player.
+const captionsOff = () => { for (const tt of v.textTracks) tt.mode = 'disabled'; };
+v.addEventListener('loadedmetadata', captionsOff); captionsOff();
 if (matchMedia('(max-width: 600px)').matches) pick(true);
 const sec = (t) => { const [m, s] = t.split(':').map(Number); return m * 60 + s; };
-CH.forEach(([t, name]) => { const b = document.createElement('button'); b.innerHTML = `<span>${t}</span>${name}`; b.dataset.t = sec(t); b.onclick = () => { v.currentTime = sec(t) + 0.05; v.play(); }; list.appendChild(b); });
-v.addEventListener('timeupdate', () => { let cur = null; for (const b of list.children) { if (v.currentTime >= +b.dataset.t) cur = b; b.classList.remove('on'); } if (cur) cur.classList.add('on'); });
+CH.forEach(([t, name]) => { const b = document.createElement('button'); b.type = 'button'; b.innerHTML = `<span>${t}</span>${name}`; b.dataset.t = sec(t); b.onclick = () => { v.currentTime = sec(t) + 0.05; v.play(); }; list.appendChild(b); });
+v.addEventListener('timeupdate', () => { let cur = null; for (const b of list.children) { if (v.currentTime >= +b.dataset.t) cur = b; b.classList.remove('on'); b.removeAttribute('aria-current'); } if (cur) { cur.classList.add('on'); cur.setAttribute('aria-current', 'true'); } });
 </script>
 </body></html>

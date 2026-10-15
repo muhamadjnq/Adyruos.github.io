@@ -1,0 +1,759 @@
+WEBVTT
+
+00:00:06.700 --> 00:00:08.767
+Welcome to Adyru OS.
+
+00:00:08.917 --> 00:00:13.257
+In this guide, you'll learn how to run
+an entire company from one place,
+
+00:00:13.297 --> 00:00:17.707
+with a team of AI agents doing the
+work, and you making the decisions.
+
+00:00:17.960 --> 00:00:19.291
+We'll go step by step.
+
+00:00:19.601 --> 00:00:22.480
+First, signing in and finding your way around.
+
+00:00:22.746 --> 00:00:26.774
+Then, giving the company a goal, and
+approving what your agents prepare.
+
+00:00:27.010 --> 00:00:31.196
+And finally, a tour of every
+department, from sales and marketing,
+
+00:00:31.236 --> 00:00:33.577
+to finance, operations and security.
+
+00:00:33.948 --> 00:00:37.600
+Everything you'll see runs on
+demo data, so after watching,
+
+00:00:37.640 --> 00:00:40.361
+feel free to click around and
+explore on your own.
+
+00:00:44.200 --> 00:00:48.793
+To get started, open your Adyru link and sign
+in with the username and password you
+
+00:00:48.833 --> 00:00:53.710
+were given. Your access is personal,
+so please keep it to yourself.
+
+00:00:54.113 --> 00:00:57.038
+Once you're signed in, you
+land on Mission Control,
+
+00:00:57.113 --> 00:00:58.321
+your home page.
+
+00:01:02.167 --> 00:01:03.889
+Let's take a quick look around.
+
+00:01:04.032 --> 00:01:08.499
+On the left is the sidebar,
+grouped by what you want to do.
+
+00:01:08.552 --> 00:01:12.005
+Work, for your inbox, tasks and goals.
+
+00:01:12.045 --> 00:01:15.524
+Team, for your AI agents and
+the company's knowledge.
+
+00:01:15.564 --> 00:01:17.920
+Grow, for sales, marketing and insights.
+
+00:01:17.998 --> 00:01:19.734
+And Money, for finance.
+
+00:01:19.992 --> 00:01:23.686
+Across the top, you'll find
+the company switcher,
+
+00:01:23.826 --> 00:01:28.197
+a search bar, the Demo data badge that
+reminds you nothing here is real,
+
+00:01:28.350 --> 00:01:31.418
+help, the light and dark theme
+switch, your notifications,
+
+00:01:31.458 --> 00:01:32.928
+and your profile.
+
+00:01:33.967 --> 00:01:37.568
+At the bottom of the sidebar is
+the Simple and Pro switch.
+
+00:01:37.800 --> 00:01:41.885
+Simple keeps things calm, and shows
+what most people need every day.
+
+00:01:42.238 --> 00:01:45.997
+Pro reveals every department
+and every advanced tool.
+
+00:01:46.347 --> 00:01:49.651
+We'll stay in Simple for now,
+and switch to Pro later on.
+
+00:01:50.055 --> 00:01:54.270
+The first time you open Adyru, a small
+card offers a one minute tour,
+
+00:01:54.310 --> 00:01:58.981
+or a guided setup. You can bring
+both back at any time from Help.
+
+00:02:02.833 --> 00:02:05.074
+Mission Control is your home page.
+
+00:02:05.179 --> 00:02:08.794
+It shows today's date, how many
+agents are working right now,
+
+00:02:08.886 --> 00:02:13.050
+how many decisions are waiting for you,
+and how many tasks are in flight.
+
+00:02:13.346 --> 00:02:16.575
+The most important box on this
+page asks one simple question.
+
+00:02:16.615 --> 00:02:18.972
+What do you want to get done?
+
+00:02:19.320 --> 00:02:21.459
+Type a goal in plain English.
+
+00:02:21.509 --> 00:02:22.933
+One sentence is enough.
+
+00:02:23.131 --> 00:02:24.748
+Then send it to the Brain.
+
+00:02:25.110 --> 00:02:28.675
+Atlas, the company's lead
+agent, turns it into a plan,
+
+00:02:28.715 --> 00:02:30.280
+splits it into tasks, hands
+them to the right agents,
+
+00:02:30.320 --> 00:02:34.847
+and comes back to you before
+anything sensitive happens.
+
+00:02:35.049 --> 00:02:36.201
+Not sure what to write?
+
+00:02:36.373 --> 00:02:38.636
+Just click one of the suggestions underneath.
+
+00:02:39.700 --> 00:02:42.938
+Below that, two guided paths
+help you get going:
+
+00:02:43.117 --> 00:02:47.283
+From idea to published post, and
+Run my company this week.
+
+00:02:47.323 --> 00:02:50.464
+Each one shows its steps and
+how far you've got.
+
+00:02:50.840 --> 00:02:55.379
+Further down, Needs your decision lists the
+actions waiting for your approval,
+
+00:02:55.425 --> 00:02:58.330
+with Approve and Reject
+right there on the card.
+
+00:02:58.551 --> 00:03:02.138
+And Agents at work shows
+which teams are busiest,
+
+00:03:02.178 --> 00:03:03.434
+live, as it happens.
+
+00:03:07.300 --> 00:03:10.904
+Before we move on, here's a
+shortcut you'll use every day.
+
+00:03:11.237 --> 00:03:16.167
+Press Control and K, or click the search
+bar, to open the command palette.
+
+00:03:16.470 --> 00:03:20.234
+Start typing, and you can jump
+to any page, find a task,
+
+00:03:20.274 --> 00:03:23.991
+a goal, an agent or a
+document, or run a command,
+
+00:03:24.031 --> 00:03:25.653
+without touching the menu.
+
+00:03:25.928 --> 00:03:29.258
+Use the arrow keys to move, and Enter to open.
+
+00:03:33.100 --> 00:03:38.094
+Next, the Inbox. This is where
+everything that needs a person ends up.
+
+00:03:38.487 --> 00:03:42.703
+The first tab, Approvals, holds the
+actions your agents have prepared,
+
+00:03:42.743 --> 00:03:45.874
+but are not allowed to do on their own.
+
+00:03:45.914 --> 00:03:49.614
+Payments, invoices, ledger
+postings, external emails,
+
+00:03:49.654 --> 00:03:54.043
+deploys, and more. This is the heart of
+how Adyru keeps you in control.
+
+00:03:54.339 --> 00:03:56.693
+Agents never approve their own work.
+
+00:03:56.930 --> 00:04:02.591
+Anything that spends money, publishes,
+sends something outside the company,
+
+00:04:02.678 --> 00:04:04.514
+signs, or deletes, waits here for a human.
+
+00:04:05.567 --> 00:04:08.545
+Each card shows the risk
+level, the department,
+
+00:04:08.585 --> 00:04:11.443
+the amount, and when the request expires.
+
+00:04:11.723 --> 00:04:16.309
+Click Show what will happen, to see
+exactly what the agent will do,
+
+00:04:16.622 --> 00:04:19.589
+and why. Then approve it, or
+reject it with a short reason,
+
+00:04:19.629 --> 00:04:21.051
+so the agent learns.
+
+00:04:21.431 --> 00:04:25.401
+The tabs at the top let you look
+back at what was approved,
+
+00:04:25.441 --> 00:04:30.502
+executed, rejected or expired, so there's
+always a clear record of who decided what.
+
+00:04:31.567 --> 00:04:35.538
+The Messages tab brings every
+customer channel into one place:
+
+00:04:35.702 --> 00:04:39.545
+email, web chat, WhatsApp,
+Telegram, Instagram,
+
+00:04:39.585 --> 00:04:44.575
+Facebook and SMS. Agents draft
+replies in your brand voice.
+
+00:04:44.741 --> 00:04:48.718
+Anything they're unsure about waits for you,
+and conversations that are about to
+
+00:04:48.758 --> 00:04:51.539
+miss their response time are flagged in red.
+
+00:04:55.400 --> 00:04:59.020
+Under Tasks and goals, you can
+follow the work itself.
+
+00:04:59.248 --> 00:05:02.809
+Tasks shows what each agent is
+working on, its status,
+
+00:05:02.849 --> 00:05:06.849
+its priority, and what it has
+cost in AI usage so far.
+
+00:05:07.099 --> 00:05:10.559
+Switch between the list and the
+board, or filter by status,
+
+00:05:10.599 --> 00:05:12.364
+department or agent.
+
+00:05:12.555 --> 00:05:16.574
+A task only counts as done once
+its result has been verified.
+
+00:05:17.633 --> 00:05:20.906
+Goals are the outcomes you've
+asked the company to deliver,
+
+00:05:20.956 --> 00:05:24.423
+like closing the month's books,
+or launching a new product.
+
+00:05:24.759 --> 00:05:28.087
+Each card shows its progress,
+how many tasks are done,
+
+00:05:28.127 --> 00:05:31.162
+running, or waiting for
+approval, and the due date.
+
+00:05:31.557 --> 00:05:35.594
+Create a new goal right here, or
+simply type it into Mission Control.
+
+00:05:39.433 --> 00:05:41.707
+Now, let's meet your AI team.
+
+00:05:41.973 --> 00:05:45.125
+The org chart shows every
+agent, who they report to,
+
+00:05:45.165 --> 00:05:46.517
+and what they cost.
+
+00:05:46.767 --> 00:05:50.894
+At the top is Atlas, the Brain,
+supported by an executive assistant,
+
+00:05:50.934 --> 00:05:53.994
+and an independent quality
+team that checks the work.
+
+00:05:54.472 --> 00:05:58.693
+Below them, each department has a head
+agent who leads a group of specialists.
+
+00:05:58.733 --> 00:06:03.048
+Click any agent to read their job, the
+tools they're allowed to use,
+
+00:06:03.088 --> 00:06:04.604
+and their recent work.
+
+00:06:05.667 --> 00:06:09.957
+Switch the view to Marketing team, to see
+a complete marketing department:
+
+00:06:10.165 --> 00:06:12.446
+fifty roles in ten teams.
+
+00:06:12.710 --> 00:06:16.427
+Market intelligence, strategy
+and positioning, search,
+
+00:06:16.467 --> 00:06:20.960
+content, social, demand
+generation, email and lifecycle,
+
+00:06:21.009 --> 00:06:24.279
+conversion, analytics, and
+marketing operations.
+
+00:06:24.619 --> 00:06:29.288
+Every role has a clear job, and anything
+that would publish or spend money still
+
+00:06:29.328 --> 00:06:30.994
+waits for your approval.
+
+00:06:32.033 --> 00:06:36.901
+In Team builder, you can draw your own
+agent team like an org chart,
+
+00:06:36.945 --> 00:06:39.101
+try it out, then publish it.
+
+00:06:39.141 --> 00:06:41.658
+Or start from a ready made
+team, such as finance,
+
+00:06:41.698 --> 00:06:43.767
+sales, marketing or social media.
+
+00:06:44.196 --> 00:06:48.684
+Missions are your always-on agents:
+standing jobs that run in the background,
+
+00:06:48.724 --> 00:06:51.061
+like watching your inbox or your cash.
+
+00:06:51.341 --> 00:06:54.511
+The console shows what they did,
+what needs your attention,
+
+00:06:54.551 --> 00:06:57.546
+and what they spent.
+
+00:06:57.586 --> 00:07:01.854
+And if you ever need to, the red Stop
+everything button pauses every agent at once.
+
+00:07:05.700 --> 00:07:08.606
+Brain and knowledge is the company's memory.
+
+00:07:08.860 --> 00:07:11.843
+On the Brain tab, you can
+talk to Atlas directly.
+
+00:07:12.034 --> 00:07:14.948
+Give it a goal, or ask about
+anything in the company.
+
+00:07:15.179 --> 00:07:18.845
+It answers with the real status of
+the work, who owns each piece,
+
+00:07:18.885 --> 00:07:21.258
+and exactly what it needs from you.
+
+00:07:22.300 --> 00:07:25.253
+Company Brain shows
+everything the company knows,
+
+00:07:25.293 --> 00:07:29.940
+and who added it: notes,
+customers, content and decisions,
+
+00:07:29.980 --> 00:07:31.565
+and how they all connect.
+
+00:07:31.918 --> 00:07:37.354
+Brand DNA holds the rules every new post,
+ad and design is checked against,
+
+00:07:37.394 --> 00:07:39.302
+so everything sounds like you.
+
+00:07:39.342 --> 00:07:43.965
+You can also connect your other AI tools,
+so they all share the same memory.
+
+00:07:44.292 --> 00:07:48.019
+Knowledge, Documents and Files
+hold your source material.
+
+00:07:51.867 --> 00:07:55.937
+Now let's look at the Grow section,
+starting with Sales and customers.
+
+00:07:56.194 --> 00:08:00.774
+The CRM shows your pipeline as a
+board, from lead all the way to won,
+
+00:08:00.814 --> 00:08:02.715
+with the value of each stage.
+
+00:08:02.961 --> 00:08:07.478
+Sales agents keep the next steps up to
+date, but you decide what closes.
+
+00:08:07.728 --> 00:08:12.264
+Inside, you'll also find
+quotes, products and pricing,
+
+00:08:12.304 --> 00:08:16.844
+forecasts, meetings, partners,
+and the customer portal.
+
+00:08:16.884 --> 00:08:20.486
+The other tabs cover leads,
+audiences, customers and contracts.
+
+00:08:21.533 --> 00:08:25.845
+Loyalty and pricing runs your
+promotions, coupons,
+
+00:08:25.885 --> 00:08:28.699
+store credit, points,
+referrals and price tests.
+
+00:08:28.994 --> 00:08:33.554
+Every balance is posted to the ledger, so what
+you owe your customers always matches
+
+00:08:33.594 --> 00:08:34.609
+your books.
+
+00:08:38.467 --> 00:08:40.786
+Marketing is where content gets made.
+
+00:08:40.971 --> 00:08:44.852
+In the Studio, start a new draft,
+pick a template and a channel,
+
+00:08:44.892 --> 00:08:49.489
+and write it yourself, or let an
+agent write it for you.
+
+00:08:49.529 --> 00:08:52.274
+The voice guard scores every draft
+against your brand kit as you type.
+
+00:08:52.598 --> 00:08:55.906
+From here you can also build
+landing pages, run experiments,
+
+00:08:55.946 --> 00:08:57.920
+and work on video and images.
+
+00:08:58.081 --> 00:09:01.966
+And as always, nothing goes out
+without a person approving it.
+
+00:09:03.000 --> 00:09:07.471
+Campaigns and Social plan and schedule
+your posts across every channel.
+
+00:09:07.789 --> 00:09:11.219
+Ads brings your Google and Meta
+results into one view,
+
+00:09:11.259 --> 00:09:14.583
+with spend, conversions, and
+return on ad spend.
+
+00:09:14.947 --> 00:09:18.714
+The Ad platform lets you sell
+advertising on your own surfaces.
+
+00:09:18.926 --> 00:09:21.923
+And SEO checks your websites
+for technical issues,
+
+00:09:21.963 --> 00:09:24.409
+and tracks how you rank in search.
+
+00:09:28.267 --> 00:09:30.943
+Insights turns your data into answers.
+
+00:09:31.120 --> 00:09:35.529
+In Analytics, pick a dataset, choose
+what to measure and how to group it,
+
+00:09:35.569 --> 00:09:38.971
+and the chart updates as you build.
+
+00:09:39.011 --> 00:09:41.948
+Save it as a report, or add it to a dashboard.
+
+00:09:41.988 --> 00:09:44.107
+The Insights tab answers
+questions in plain language,
+
+00:09:44.147 --> 00:09:47.157
+and in Pro mode you also get
+the full data platform,
+
+00:09:47.197 --> 00:09:48.944
+including experiments.
+
+00:09:52.800 --> 00:09:57.691
+Now, Money. Finance is a complete
+double-entry accounting system.
+
+00:09:57.836 --> 00:10:01.259
+You can see your cash across bank
+accounts, profit and loss,
+
+00:10:01.299 --> 00:10:04.382
+what customers owe you,
+what you owe suppliers,
+
+00:10:04.422 --> 00:10:06.430
+and your latest journal entries.
+
+00:10:06.645 --> 00:10:09.984
+Every posting is balanced, can't
+be changed after the fact,
+
+00:10:10.024 --> 00:10:11.469
+and is fully audited.
+
+00:10:11.760 --> 00:10:15.004
+Create an invoice or a journal entry
+from the buttons at the top,
+
+00:10:15.077 --> 00:10:19.100
+and use the tabs for
+accounts, invoices and bills,
+
+00:10:19.140 --> 00:10:21.732
+banking, reports, and closing each period.
+
+00:10:22.767 --> 00:10:27.093
+The Finance team is a group of agents that
+prepare the work of an entire finance
+
+00:10:27.133 --> 00:10:31.294
+function: reconciling bank
+accounts, chasing invoices,
+
+00:10:31.334 --> 00:10:35.387
+preparing the month-end
+close, and filing reports.
+
+00:10:35.427 --> 00:10:37.529
+You approve, they execute.
+
+00:10:37.569 --> 00:10:40.617
+You can ask the CFO agent a
+question, read the daily brief,
+
+00:10:40.657 --> 00:10:42.494
+or explore what-if scenarios.
+
+00:10:42.676 --> 00:10:45.848
+And no agent can ever move money on its own.
+
+00:10:49.700 --> 00:10:53.204
+Let's switch to Pro mode, to
+reveal the Operate section.
+
+00:10:53.459 --> 00:10:56.701
+Operations covers the day-to-day
+running of the business.
+
+00:10:56.892 --> 00:11:00.128
+Ops and engineering shows what
+needs a person today:
+
+00:11:00.168 --> 00:11:03.513
+monitors that are down, open
+incidents, code reviews,
+
+00:11:03.553 --> 00:11:09.789
+shipping labels and risky vendors, plus a
+Reliability tab for uptime goals.
+
+00:11:09.829 --> 00:11:13.434
+Inventory, purchasing, projects and
+product live right next to it.
+
+00:11:14.500 --> 00:11:18.758
+If you run a marketplace, Dispatch
+shows supply and demand live,
+
+00:11:18.798 --> 00:11:21.964
+with jobs, providers, and fair pricing caps.
+
+00:11:22.204 --> 00:11:26.369
+And Back office brings together
+procurement, PR and communications,
+
+00:11:26.409 --> 00:11:30.309
+investor relations, business
+development, learning,
+
+00:11:30.349 --> 00:11:34.807
+facilities, internal audit and user research,
+each with its own agents and its own
+
+00:11:34.847 --> 00:11:35.831
+approvals.
+
+00:11:39.667 --> 00:11:44.041
+People handles leave,
+attendance, goals, reviews,
+
+00:11:44.112 --> 00:11:46.547
+onboarding, and the company directory.
+
+00:11:46.868 --> 00:11:52.249
+Risk and compliance keeps contracts, privacy,
+security readiness and policies in one
+
+00:11:52.289 --> 00:11:54.777
+place, with deadlines you won't miss.
+
+00:11:55.131 --> 00:11:59.095
+Trust and safety scores risky
+actions and keeps a review queue.
+
+00:11:59.373 --> 00:12:03.424
+The Security center watches
+sign-ins, alerts and active sessions.
+
+00:12:03.563 --> 00:12:06.318
+And the Audit log records
+every important action,
+
+00:12:06.358 --> 00:12:08.599
+by people and agents alike.
+
+00:12:12.433 --> 00:12:16.671
+Finally, Settings. This is where
+you set up your organization,
+
+00:12:16.711 --> 00:12:20.604
+how much the AI may do on its
+own, your approval policy,
+
+00:12:20.644 --> 00:12:24.597
+members and security, and the look of
+the app, including white label,
+
+00:12:24.637 --> 00:12:28.065
+with your own name, logo and colors.
+
+00:12:28.105 --> 00:12:32.563
+Channels connects email and messaging,
+Integrations connects the tools you already
+
+00:12:32.603 --> 00:12:36.951
+use, and the Developers area
+manages your API keys and apps.
+
+00:12:40.800 --> 00:12:44.865
+Adyru works beautifully on your phone, too.
+
+00:12:44.905 --> 00:12:47.456
+The layout adapts to any screen,
+with a bottom bar for Home,
+
+00:12:47.496 --> 00:12:50.250
+Inbox, Ask, Work, and More.
+
+00:12:50.290 --> 00:12:54.059
+And you can switch between the dark
+and light themes at any time.
+
+00:12:55.100 --> 00:12:57.584
+And that's the full tour.
+
+00:12:57.943 --> 00:13:00.203
+To recap: tell Mission
+Control what you want done,
+
+00:13:00.362 --> 00:13:04.991
+let your agents prepare the work, and
+approve what matters from your Inbox.
+
+00:13:05.031 --> 00:13:08.187
+Then explore each department at your own pace.
+
+00:13:08.401 --> 00:13:13.460
+Everything here runs on demo data,
+so you can't break anything.
+
+00:13:13.500 --> 00:13:15.464
+Thanks for watching, and enjoy Adyru OS.

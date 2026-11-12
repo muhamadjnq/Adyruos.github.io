@@ -1,0 +1,159 @@
+{
+ "telegram_chat_id": -1003562969528,
+ "telegram_channel": "@ad_yru",
+ "linkedin_org": "urn:li:organization:98973070",
+ "telegram": [
+  {
+   "id": "b2-tg-01-web-app-pentest",
+   "send_at": "2026-11-13T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg1.jpg",
+   "caption": "🛡 Your login page is the front door to every customer record you hold\n\nAutomated scanners give you a score. Attackers don't use scores.\n\n🔍 What our Web Application Penetration Test covers:\n• Authentication and session handling\n• Access control (can user A see user B's data?)\n• Business logic: payments, coupons, checkout flows\n• Injection classes across every form and API\n\n✅ Manual, OWASP-aligned testing\n✅ Reproducible findings with clear fixes\n✅ Retest included to prove each issue is closed\n\n🚀 Tell us about your app and get a clear scope within 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Web Application Penetration Test"
+  },
+  {
+   "id": "b2-tg-02-ai-support-agent",
+   "send_at": "2026-11-14T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg2.jpg",
+   "caption": "🤖 An AI support agent that knows when to say no\n\nOne confident wrong answer can cost more than a hundred slow tickets.\n\n🔍 What you get with our AI Customer Support Agent:\n• Answers grounded only in your own knowledge base\n• Escalation rules that hand off to a human at the right moment\n• A refusal policy tested before launch\n• Analytics on what customers ask and where the agent stops\n\n✅ Works across your website and support channels\n✅ Built and tested by a senior team\n\n🚀 Send us your top support questions and we'll scope it in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "AI Customer Support Agent"
+  },
+  {
+   "id": "b2-tg-03-technical-seo-audit",
+   "send_at": "2026-11-15T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg3.jpg",
+   "caption": "📈 Great content, still not on page one?\n\nThe problem is often what Google sees before it reads a word.\n\n🔍 What our Full Technical SEO Audit covers:\n• Crawl analysis and indexation\n• Core Web Vitals and mobile speed\n• On-page issues and duplicate content\n• Competitor and content-gap analysis\n\n✅ Delivered as a prioritised 90-day action plan\n✅ Clear tasks your team can execute\n\n🆓 Start with a free instant audit of your site on adyru.com\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Full Technical SEO Audit"
+  },
+  {
+   "id": "b2-tg-04-saas-mvp-build",
+   "send_at": "2026-11-16T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg4.jpg",
+   "caption": "💻 Build the one workflow that proves your business\n\nToo many MVPs are either overbuilt or just demos that can't take a real customer.\n\n🔍 What our SaaS MVP Build includes:\n• Authentication and user management\n• Billing and subscriptions from day one\n• Onboarding that gets users to value fast\n• Product analytics to learn from early customers\n• The core workflow, built to production quality\n\n✅ Ready for real customers, not just investors\n\n🚀 Tell us your idea and get a clear scope and fixed price in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "SaaS MVP Build"
+  },
+  {
+   "id": "b2-tg-05-payment-gateway",
+   "send_at": "2026-11-17T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg5.jpg",
+   "caption": "💳 Checkout is where revenue quietly leaks\n\nDouble charges, lost webhooks and refunds tracked in spreadsheets cost more than you think.\n\n🔍 What our Payment Gateway & Checkout Integration delivers:\n• Tokenised card capture and 3-D Secure\n• Idempotency keys so no customer is charged twice\n• Signed, verified webhooks\n• Refunds recorded in your own system\n• A reconciliation report from day one\n\n✅ One payment rail, hardened end to end\n\n🚀 Tell us your stack and we'll send a clear scope in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Payment Gateway & Checkout Integration"
+  },
+  {
+   "id": "b2-tg-06-google-ads-management",
+   "send_at": "2026-11-18T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg6.jpg",
+   "caption": "📊 Paying for clicks that never turn into sales?\n\nMost Google Ads accounts don't need more budget. They need a better structure.\n\n🔍 What our Google Ads Campaign Management includes:\n• Full account build: Search, Performance Max, Shopping\n• Conversion tracking you can audit yourself\n• Daily management against agreed CPA and ROAS targets\n• Clear reporting on what's working and why\n\n💡 Ad spend is billed separately and stays in your account\n\n🚀 Send us your account goals and get a scope in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Google Ads Campaign Management"
+  },
+  {
+   "id": "b2-tg-07-smart-contract-audit",
+   "send_at": "2026-11-19T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg7.jpg",
+   "caption": "⛓️ In Web3, bugs can't be rolled back\n\nOnce a contract is live, every mistake is permanent and public.\n\n🔍 What our Smart Contract Security Audit includes:\n• Manual line-by-line code review\n• Formal reasoning on critical invariants\n• Fuzzing with thousands of unexpected inputs\n• A public-ready report your users can read\n• Verification that every fix is in place\n\n✅ Senior auditors, clear findings, no checkbox audits\n\n🚀 Share your repo scope and get a clear quote in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Smart Contract Security Audit"
+  },
+  {
+   "id": "b2-tg-08-rag-knowledge-platform",
+   "send_at": "2026-11-20T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg8.jpg",
+   "caption": "🧠 Ask your company's documents, get answers with sources\n\nThe answer usually exists. Nobody can find it.\n\n🔍 What our RAG Knowledge Platform includes:\n• Ingestion of PDFs, docs and shared drives\n• Hybrid retrieval: keyword plus semantic search\n• Permissions that respect who can see what\n• A citation on every answer\n\n✅ Your data stays under your control\n✅ Built for teams, not demos\n\n🚀 Tell us where your knowledge lives and get a scope in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "RAG Knowledge Platform"
+  },
+  {
+   "id": "b2-tg-09-html5-game-development",
+   "send_at": "2026-11-21T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg9.jpg",
+   "caption": "🎮 Games that load before players leave\n\nIf it takes more than a few seconds on a normal phone, most players are gone.\n\n🔍 What our Web & HTML5 Game Development delivers:\n• Instant-play games in the browser or messaging apps\n• Fast first load and low memory use\n• Smooth play on mid-range phones\n• Built-in analytics on player behaviour\n\n✅ No app store install needed\n✅ Great for brands, campaigns and casual titles\n\n🚀 Share your game idea and get a scope in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "Web & HTML5 Game Development"
+  },
+  {
+   "id": "b2-tg-10-iso-27001-readiness",
+   "send_at": "2026-11-22T19:24:00+03:30",
+   "photo": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/tg10.jpg",
+   "caption": "🔐 ISO 27001 without the panic\n\nMore enterprise clients now ask for it before they sign.\n\n🔍 What our ISO 27001 Readiness & Certification Support covers:\n• Gap assessment against the standard\n• ISMS built around how your team works\n• Practical risk assessment and treatment\n• Policies and internal audit\n• Support through the certification audit\n\n✅ Turns security questionnaires into a sales advantage\n\n🚀 Tell us your company size and timeline and get a scope in 24 hours.\n\n🌐 adyru.com · ✉️ info@adyru.com · 📱 +971501739222",
+   "service": "ISO 27001 Readiness & Certification Support"
+  }
+ ],
+ "linkedin": [
+  {
+   "id": "b2-li-01-web-app-pentest",
+   "publish_at": "2026-11-13T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li1.jpg",
+   "text": "Most breaches don't start with genius hackers. They start with an ID changed in a URL.\n\nWhen we test web applications, the findings that hurt most are rarely exotic. They are the ones automated scanners can't reason about:\n\n→ Broken access control: one customer can read another customer's data\n→ Sessions that never expire: one stolen cookie becomes full account access\n→ Business logic gaps: coupons applied twice, prices edited in the request, checkout steps skipped\n→ Injection in forgotten corners: old search boxes, filters and contact forms\n\nA scanner gives you a score. A manual, OWASP-aligned test gives you reproducible findings, a clear fix for each one and a retest to prove it's closed.\n\nWhen was the last time a human, not a tool, tried to break your app?\n\n#Cybersecurity #PenetrationTesting #AppSec",
+   "first_comment": "If you want to see what a manual test covers before you commit, the full scope of our Web Application Penetration Test is here: https://adyru.com/products. Happy to answer questions in the comments.",
+   "service": "Web Application Penetration Test"
+  },
+  {
+   "id": "b2-li-02-ai-support-agent",
+   "publish_at": "2026-11-16T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li2.jpg",
+   "text": "Most AI support bots fail the same way: they answer questions they should never answer.\n\nA refund policy invented on the spot. A legal claim. A price that doesn't exist. One confident wrong answer costs more than a hundred slow tickets.\n\nSo when we build an AI customer support agent, the refusal policy is designed and tested before launch, not added after the first incident:\n\n→ Answers grounded only in your own knowledge base\n→ Clear escalation rules that hand the conversation to a human at the right moment\n→ A refusal policy tested against real edge cases\n→ Analytics that show what customers ask and where the agent says no\n\nThe best support agent isn't the one that answers everything. It's the one that knows when not to.\n\nHow does your team decide what an AI agent is allowed to answer?\n\n#AI #CustomerSupport #AIAgents",
+   "first_comment": "The question we ask every client first: which three answers would be most expensive if the agent got them wrong? Those become the first refusal tests. Details of how we build it: https://adyru.com/products",
+   "service": "AI Customer Support Agent"
+  },
+  {
+   "id": "b2-li-03-technical-seo-audit",
+   "publish_at": "2026-11-17T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li3.jpg",
+   "text": "\"We publish good content every week. Why aren't we ranking?\"\n\nWe hear this a lot, and the answer is usually not the writing. It's what Google sees before it reads a single word:\n\n→ Pages blocked from crawling by mistake\n→ Slow Core Web Vitals on mobile\n→ Duplicate and thin pages competing with each other\n→ The pages that actually sell sitting three clicks deep with no internal links\n\nContent is the engine. Technical SEO is the road it drives on.\n\nA full technical audit covers crawl analysis, Core Web Vitals, indexation and content gaps against your competitors, and ends with a prioritised 90-day action plan your team can execute.\n\nWhat's the one page on your site you wish ranked higher?\n\n#SEO #TechnicalSEO #DigitalMarketing",
+   "first_comment": "Quick way to start: run your homepage through the free instant site audit on adyru.com. It checks indexability, speed, security headers and mobile in under a minute.",
+   "service": "Full Technical SEO Audit"
+  },
+  {
+   "id": "b2-li-04-saas-mvp-build",
+   "publish_at": "2026-11-18T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li4.jpg",
+   "text": "Most MVPs fail for one of two reasons: they build too much, or they build a demo that can't take a real customer.\n\nA real MVP sits in between. It does one workflow, the one that proves the business, and it does it at production quality:\n\n→ Authentication that won't need rewriting later\n→ Billing from day one, because \"we'll charge later\" is how assumptions survive\n→ Onboarding that gets a new user to value without a call\n→ Analytics so you learn from the first ten customers, not the first thousand\n\nEverything else waits until customers ask for it.\n\nIf you could only ship one feature next month, which would it be?\n\n#SaaS #MVP #StartupBuilding",
+   "first_comment": "The exercise we run in week one: write the single sentence a paying customer would use to describe what your product does for them. Every feature that doesn't serve that sentence goes on the later list. More on our SaaS MVP Build: https://adyru.com/products",
+   "service": "SaaS MVP Build"
+  },
+  {
+   "id": "b2-li-05-payment-gateway",
+   "publish_at": "2026-11-19T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li5.jpg",
+   "text": "A payment integration that \"works in testing\" is not the same as one that survives real money.\n\nThe failures we see in production are almost never the happy path:\n\n→ A customer clicks Pay twice and gets charged twice, because there's no idempotency key\n→ A webhook arrives late, or twice, or forged, because nobody verifies signatures\n→ Refunds handled by hand in a dashboard, with no record in your own system\n→ Month-end reconciliation that takes a week because nothing matches\n\nWe integrate one payment rail end to end and harden it: tokenised capture, 3-D Secure, idempotency keys, signed webhooks, refunds and a reconciliation report from day one.\n\nHow long does your team spend reconciling payments every month?\n\n#FinTech #Payments #Ecommerce",
+   "first_comment": "A simple test for any checkout: trigger the same payment request twice within a second. If you get two charges, idempotency is missing. Full scope of our Payment Gateway & Checkout Integration: https://adyru.com/products",
+   "service": "Payment Gateway & Checkout Integration"
+  },
+  {
+   "id": "b2-li-06-google-ads-management",
+   "publish_at": "2026-11-20T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li6.jpg",
+   "text": "\"We need more budget\" is the most expensive sentence in paid search.\n\nMost Google Ads accounts we audit don't have a budget problem. They have a structure problem:\n\n→ No reliable conversion tracking, so the algorithm optimises for clicks instead of sales\n→ One campaign doing everything, when Search, Performance Max and Shopping each need their own goal\n→ No agreed CPA or ROAS target, so every result looks either great or terrible depending on the day\n\nFix those three and the same budget usually goes much further.\n\nWe build and manage accounts against CPA and ROAS targets agreed at the start, with conversion tracking you can audit yourself.\n\nDo you know your target cost per acquisition today?\n\n#GoogleAds #PPC #PerformanceMarketing",
+   "first_comment": "A 2-minute check you can do now: in Google Ads, open Goals and look at which conversion actions are marked Primary. If page views or button clicks are in there, the account is optimising for the wrong thing. Our management service: https://adyru.com/products",
+   "service": "Google Ads Campaign Management"
+  },
+  {
+   "id": "b2-li-07-smart-contract-audit",
+   "publish_at": "2026-11-23T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li7.jpg",
+   "text": "In Web3, a bug isn't a ticket in the backlog. It's a transaction nobody can reverse.\n\nThat changes how a smart contract audit has to work:\n\n→ Manual line-by-line review, because automated tools miss logic errors\n→ Formal reasoning on the critical invariants: what must always be true, no matter what\n→ Fuzzing to throw thousands of unexpected inputs at the contract before attackers do\n→ A public-ready report your users can actually read, and verification that every fix landed\n\nAn audit isn't a badge for the website. It's the last chance to find the problem while it's still free to fix.\n\nWhat's the one invariant your protocol can never break?\n\n#Web3 #SmartContracts #BlockchainSecurity",
+   "first_comment": "If you're preparing for an audit, the best thing you can send on day one is a written list of invariants and the threat model you designed against. It makes the review faster and deeper. Our Smart Contract Security Audit: https://adyru.com/products",
+   "service": "Smart Contract Security Audit"
+  },
+  {
+   "id": "b2-li-08-rag-knowledge-platform",
+   "publish_at": "2026-11-24T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li8.jpg",
+   "text": "Every company has the same problem: the answer exists, but nobody can find it.\n\nIt's in a PDF from 2022, a shared drive folder, a policy someone updated last month. A RAG knowledge platform lets your team ask in plain language and get an answer with the source attached.\n\nThe difference between a demo and a system your team trusts is in the unglamorous parts:\n\n→ Ingestion and chunking that keep tables and context intact\n→ Hybrid retrieval, combining keyword and semantic search\n→ Permissions, so people only see answers from documents they're allowed to read\n→ Citations on every answer, so anyone can check the source in one click\n\nIf an AI answer can't show where it came from, it shouldn't be trusted.\n\nWhere does knowledge get lost in your company today?\n\n#AI #RAG #KnowledgeManagement",
+   "first_comment": "The quickest way to test a RAG system's quality: ask it something the documents don't cover. A good one says it doesn't know. A bad one makes something up. More on our RAG Knowledge Platform: https://adyru.com/products",
+   "service": "RAG Knowledge Platform"
+  },
+  {
+   "id": "b2-li-09-html5-game-development",
+   "publish_at": "2026-11-25T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li9.jpg",
+   "text": "The best game in the world loses if it takes 20 seconds to load on a mid-range phone.\n\nInstant-play web games, in the browser or inside messaging apps, are one of the fastest ways to reach players without an app store install. But they live or die on engineering most teams skip:\n\n→ A small first load, so the game is playable in seconds\n→ Low memory use, so it doesn't crash on the phones most players actually own\n→ Smooth frame rates on mid-range hardware, not just flagship devices\n→ Analytics built in, so you see where players drop off\n\nWe build web and HTML5 games engineered for that reality: fast load, low memory, mid-range phones first.\n\nWould your brand or product work as a 60-second game?\n\n#GameDevelopment #HTML5 #WebGames",
+   "first_comment": "Instant-play games also work well as marketing: a branded mini-game shared in messaging apps can reach people who would never install an app. Our Web & HTML5 Game Development: https://adyru.com/products",
+   "service": "Web & HTML5 Game Development"
+  },
+  {
+   "id": "b2-li-10-iso-27001-readiness",
+   "publish_at": "2026-11-26T10:30:00+03:30",
+   "image": "https://raw.githubusercontent.com/muhamadjnq/Adyruos.github.io/claude/probe/publisher/media/b2/li10.jpg",
+   "text": "Enterprise deals increasingly come with the same question: \"Are you ISO 27001 certified?\"\n\nFor a growing company, the first reaction is usually panic. It doesn't need to be.\n\nCertification is a structured project, and most of the work is making visible what good teams already do:\n\n→ A gap assessment against the standard, so you know exactly where you stand\n→ An information security management system that fits how you actually work\n→ Risk assessment and treatment that's practical, not a 200-page document nobody reads\n→ Policies, an internal audit, and support right through the certification audit\n\nDone well, ISO 27001 isn't paperwork. It's a sales asset that answers the security questionnaire before it's sent.\n\nHas a security questionnaire ever slowed down one of your deals?\n\n#ISO27001 #InformationSecurity #Compliance",
+   "first_comment": "Tip: start your evidence folder now. Most of the audit time goes on proving controls exist, not building them. Our ISO 27001 Readiness & Certification Support: https://adyru.com/products",
+   "service": "ISO 27001 Readiness & Certification Support"
+  }
+ ]
+}

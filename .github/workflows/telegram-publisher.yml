@@ -1,0 +1,38 @@
+name: Telegram publisher
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 min; each run also waits for items due in the next 14 min, so posts go out on the minute
+  workflow_dispatch: {}
+  push:
+    branches: [claude/probe]
+    paths: ["publisher/queue/telegram/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-publisher   # never two runs at once, so nothing is posted twice
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post due items
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          WINDOW_MINUTES: "14"
+        run: python3 publisher/telegram_publish.py
+      - name: Save sent state
+        run: |
+          git config user.name "adyru-publisher"
+          git config user.email "publisher@adyru.com"
+          git add publisher/state || true
+          if ! git diff --cached --quiet; then
+            git commit -m "telegram: update sent state [skip ci]"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          fi
